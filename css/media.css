@@ -1,0 +1,227 @@
+
+ :root {
+    --primary: #29e9bc;
+    --normal: #ffffff;
+    --menu-hover:#222222;
+    --black: #13131a;
+    --bg: #0c1013;
+    --danger: #f75842;
+    --border: 0.1rem solid rgba(255, 255, 255, 0.3);
+
+
+
+    --container-width-lg: 80%;
+    --container-width-md: 90%;
+    --container-width-sm: 94%;
+
+}
+ 
+ 
+ 
+ /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+ @media (max-width: 1399.98px) { 
+  
+}
+
+/*  `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+
+
+
+}
+
+
+
+/* `lg` applies to medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+
+/* ===================  Menu Bar  ======================== */
+
+ul.navbar-nav.ml-auto {
+    background: var(--black);
+}
+li.nav-item a.nav-link.after::after {
+    display: none;
+    }
+    li.nav-item:hover {
+        background: var(--menu-hover);
+    }
+
+/* ===============  About Section  =========================== */
+.about-left {
+    width: 100%;
+}
+.about-right {
+    margin-top:0px;
+}
+/* ================= */
+
+.team-part .team .team-text h3 {
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.team-text p {
+    font-size: 14px;
+}
+.service-text p {
+    font-size: 14px;
+}
+.question_ans p {
+    font-size: 14px;
+}
+
+
+}
+
+
+/* `md` applies to small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+
+    a,u{
+        font-size: 14px;
+    }
+    p{
+        font-size: 14px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    h4{
+        font-size: 1px;
+    }
+    h5{
+        font-size: 16px;
+    }
+    h6{
+        font-size: 13px;
+    }
+/* ===================  Menu Bar  ======================== */
+
+ul.navbar-nav.ml-auto {
+    background: var(--black);
+}
+li.nav-item a.nav-link.after::after {
+    display: none;
+    }
+    li.nav-item:hover {
+        background: var(--menu-hover);
+    }
+/* ===================  Banner Section  ========================= */
+
+.bannar-right {
+    margin-top: -61%;
+    /* margin-left: 30%; */
+    text-align: center;
+}
+
+
+/* ==================  About Section  ========================= */
+
+.about-left {
+    width: 50%;
+    margin: 23px auto;
+}
+/* ==================  Portfolio Section  ===================== */
+
+section.portfolio-part .fancy-box a {
+    width: 75%;
+
+}
+/* ===================  Progress Bar  ======================= */
+
+.progress-part {
+    width: 85%;
+}
+
+/* ==================  Team Section  ============================== */
+.team {
+    margin: 10px 0px;
+}
+/* ====================  Contact Section  ======================== */
+
+.contact-left {
+    display: none;
+}
+/* ====================  Footer Section  ======================== */
+footer .footer-item-one {
+    margin: 15px 0px;
+}
+
+/* ========================= */
+.faq_icon {
+    font-size: 14px;
+}
+.faq h4 {
+    font-size: 16px;
+}
+.faq {
+    text-align: start;
+}
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.footer-item-one {
+    text-align: center;
+}
+
+
+}
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    a,u{
+        font-size: 14px;
+    }
+p{
+    font-size: 13px;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 20px;
+}
+h4 {
+    font-size: 17px;
+}
+h5{
+    font-size: 16px;
+}
+h6{
+    font-size: 12px;
+}
+
+
+/* ===================  Menu Bar  ======================== */
+
+ul.navbar-nav.ml-auto {
+    background: var(--black);
+}
+li.nav-item a.nav-link.after::after {
+    display: none;
+    }
+    li.nav-item:hover {
+        background: var(--menu-hover);
+    }
+
+
+/* ===================  About Section  ==================== */
+.about-right {
+    margin: 0px 25px;
+}
+
+/* ===============  Footer  ======================= */
+footer .footer-item-one .footer-item-one-menu {
+    margin-top: 0;
+}
+
+
+
+
+}
+
+
