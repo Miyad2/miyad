@@ -383,14 +383,11 @@ section#portfolio {
     }
 }
 
+
 .portfolio-part .portfolio1{
-    background: url(./img/portfolio/portfolio1.png);
-    background-size: cover;
-}
-/* .portfolio-part .portfolio1{
     background: url(../img/portfolio/portfolio1.png);
     background-size: cover;
-} */
+}
 .portfolio-part .portfolio2{
     background: url(../img/portfolio/portfolio2.png);
     background-size: cover;
