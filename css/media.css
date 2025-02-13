@@ -48,18 +48,28 @@ li.nav-item a.nav-link.after::after {
     }
 
 /* ===============  About Section  =========================== */
-.about-left {
+/* .about-left {
     width: 100%;
+} */
+.about-left {
+    width: 45%;
+    margin: auto;
 }
 .about-right {
     margin-top:0px;
 }
 /* ================= */
 
-.team-part .team .team-text h3 {
+/* .team-part .team .team-text h3 {
     font-weight: 500;
     margin-bottom: 15px;
     font-size: 20px;
+} */
+.service-text h4 {
+    font-size: 16px;
+}
+.service {
+    min-height: 230px;
 }
 .team-text p {
     font-size: 14px;
@@ -124,10 +134,11 @@ li.nav-item a.nav-link.after::after {
 }
 /* ==================  Portfolio Section  ===================== */
 
-section.portfolio-part .fancy-box a {
+/* section.portfolio-part .fancy-box a {
     width: 75%;
+} */
 
-}
+
 /* ===================  Progress Bar  ======================= */
 
 .progress-part {
@@ -213,10 +224,18 @@ li.nav-item a.nav-link.after::after {
 .about-right {
     margin: 0px 25px;
 }
+/* ===================  Portfolio Section  ==================== */
+.port-img {
+    margin: 20px 0px;
+}
 
 /* ===============  Footer  ======================= */
 footer .footer-item-one .footer-item-one-menu {
     margin-top: 0;
+}
+footer {
+    background: var(--black);
+    padding-top: 50px;
 }
 
 
