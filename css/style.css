@@ -247,27 +247,50 @@ section.about-part {
 
 .service {
     background: var(--primary);
-    padding: 15px 35px;
-    margin: 10px 0px;
-    min-height: 315px;
+    padding: 45px 35px;
+    margin: 15px 0px;
     border-radius: 10px;
+    cursor: pointer;
+
+    &&:hover .icon{
+        transform: translateY(-15px);
+    }
+    &&:hover .icon img {
+        transform: scale(1.2) rotate(360deg);
+    }
+    &&:hover .service-text h4{
+        transform: scale(1.2);
+    }
 }
 
+/* .service {
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px auto;
+    background: var(--primary);
+    border-radius: 10px;
+} */
+
 .service .icon {
-    width: 55px;
-    height: 55px;
+    width: 70px;
+    height: 70px;
     margin: 6px auto;
     border: 1px solid #177d71;
     border-radius: 50%;
-    padding: 7px;
+    padding: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .service-text {
     text-align: center;
     color: #000;
+    padding-top: 10px;
 }
 
 .service-text h4 {
