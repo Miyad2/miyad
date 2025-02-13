@@ -3,15 +3,19 @@
 
 $(document).ready(function(){
 
-  // init Isotope
-var $grid = $('.grid').isotope({
-    // options
-  });
-  // filter items on button click
-  $('.btn').on( 'click', 'button', function() {
-    var filterValue = $(this).attr('data-filter');
-    $grid.isotope({ filter: filterValue });
-  });
+//   // init Isotope
+// var $grid = $('.grid').isotope({
+//     // options
+//   });
+//   // filter items on button click
+//   $('.btn').on( 'click', 'button', function() {
+//     var filterValue = $(this).attr('data-filter');
+//     $grid.isotope({ filter: filterValue });
+//   });
+
+// ============== MixitUp ==================
+var mixer = mixitup(".grid");
+
 });
 
 // ===================  Header Scrolling Effect  ==========================

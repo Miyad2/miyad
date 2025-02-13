@@ -363,22 +363,91 @@ section.work .btn {
     gap: 20px;
     margin-bottom: 30px;
 }
+section#portfolio {
+    overflow: hidden;
+}
 .row.grid {
     background: #131313;
     border-radius: 32px;
 }
-.photo.my-md-3 {
-    height: 300px;
-    overflow: hidden;
+
+.portfolio-part .photo{
+    height: 350px;
     box-shadow: 0px 3px 5px var(--primary);
     border-radius: 7px;
+    transition: ease-in-out 8s;
+    background-position: top;
+
+    &&:hover{
+        background-position: bottom;
+    }
 }
-.photo img{
-     transition: 10s linear;
+
+.portfolio-part .portfolio1{
+    background: url(../img/portfolio/portfolio1.png);
+    background-size: cover;
 }
-.photo:hover img {
-    transform: translateY(-100%);
+.portfolio-part .portfolio2{
+    background: url(../img/portfolio/portfolio2.png);
+    background-size: cover;
 }
+.portfolio-part .portfolio3{
+    background: url(../img/portfolio/portfolio3.png);
+    background-size: cover;
+}
+.portfolio-part .portfolio4{
+    background: url(../img/portfolio/portfolio4.png);
+    background-size: cover;
+}
+.portfolio-part .portfolio5{
+    background: url(../img/portfolio/portfolio5.png);
+    background-size: cover;
+}
+.portfolio-part .portfolio6{
+    background: url(../img/portfolio/portfolio6.png);
+    background-size: cover;
+}
+.portfolio-part .portfolio7{
+    background: url(../img/portfolio/portfolio7.png);
+    background-size: cover;
+}
+.portfolio-part .portfolio8{
+    background: url(../img/portfolio/portfolio8.png);
+    background-size: cover;
+}
+.portfolio-part .portfolio9{
+    background: url(../img/portfolio/portfolio9.png);
+    background-size: cover;
+}
+.portfolio-part .portfolio10{
+    background: url(../img/portfolio/portfolio10.png);
+    background-size: cover;
+}
+.portfolio-part .portfolio11{
+    background: url(../img/portfolio/portfolio11.png);
+    background-size: cover;
+}
+.portfolio-part .portfolio12{
+    background: url(../img/portfolio/portfolio12.png);
+    background-size: cover;
+}
+.portfolio-part .portfolio13{
+    background: url(../img/portfolio/portfolio13.png);
+    background-size: cover;
+}
+.portfolio-part .portfolio14{
+    background: url(../img/portfolio/portfolio14.png);
+    background-size: cover;
+}
+.portfolio-part .portfolio15{
+    background: url(../img/portfolio/portfolio15.png);
+    background-size: cover;
+}
+.portfolio-part .portfolio16{
+    background: url(../img/portfolio/portfolio16.png);
+    background-size: cover;
+}
+
 
 
 
@@ -696,6 +765,6 @@ span.copy-span{
 /* span.copy-span:hover{
     text-decoration: underline;
 } */
-
+/* ============================ */
 
 
